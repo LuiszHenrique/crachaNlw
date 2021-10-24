@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  background: url(images/background.svg) no-repeat center/cover;
+  background: url(images/mobile-background.svg) no-repeat center/cover;
   min-height: 812px;
   width: 100vw;
   height: 100vh;
@@ -67,7 +67,7 @@ h1 {
 .github:hover {
   transition: 0.2s;
   filter: brightness(0.5);
-  transform: translateY(0.5rem)
+  transform: translateY(0.1rem)
 }
 
 ul {
@@ -83,12 +83,12 @@ ul {
 }
 
 ul li a img {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 ul li {
   transition: 0.2s;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 ul li:hover {
@@ -102,10 +102,7 @@ ul li:hover {
 
 a {
   color: var(--gray);
-  text-decoration: none;
-
-  margin-top: 0.25rem;
-
+  
   display: flex;
   gap: 0.75rem;
 
@@ -120,7 +117,7 @@ p {
 
 @media (min-width: 960px) {
   body {
-    background: url(images/background2.svg) no-repeat center/cover;   
+    background: url(/images/background2.svg) no-repeat center/cover;   
   }
 
   main {
@@ -141,7 +138,7 @@ p {
   
   .avatar {
     width: 10rem;
-    margin: 15.5rem auto 0; 
+    margin: 16rem auto 0; 
   
     position: relative;
   }
