@@ -120,7 +120,7 @@ p {
 
 @media (min-width: 960px) {
   body {
-    background: url(/images/background2.svg) no-repeat center/cover;   
+    background: url(images/background2.svg) no-repeat center/cover;   
   }
 
   main {
